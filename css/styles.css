@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#imagem {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+img {
+    width: 180px;
+}
+
+.erro{
+    font-size: 100px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media(max-width: 1089) and (min-width:300px) {
+    .texto, 
+    .erro {
+        font-size: 48px;
+    }
+}
+
+.centralizar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width:1089) and (min-width:300px) {
+
+    .centralizar,
+    .icone {
+        font-size: 20px;
+    }
+}
+
+.icone {
+    margin-top: 30px;
+}
+
+@media (max-width:1089) and (min-width:300px) {
+    .icone {
+        font-size: 20px;
+    }
+}
+
+.mensagem {
+    color: red;
+    display: flex;
+    font-size: 25px;
+}
+
+@media (max-width:1400) and (min-width:300px) {
+    .mensagem,
+    .textoErro {
+        font-size: 20px;
+    }
+}
+
+.icone, 
+.erro, 
+.mensagem{
+    margin-top: 2%;
+}
