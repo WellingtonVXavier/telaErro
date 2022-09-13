@@ -13,12 +13,13 @@ a {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #000000;
+    
 }
 
 #imagem {
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 img {
@@ -33,14 +34,17 @@ img {
     justify-content: center;
 }
 
-@media(max-width: 1089) and (min-width:300px) {
+/* @media(max-width: 1089) and (min-width:300px) {
     .texto, 
     .erro {
         font-size: 48px;
     }
-}
+} */
 
-.centralizar {
+.centralizar, 
+.erro, 
+.mensagem{
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,7 +52,7 @@ img {
 }
 
 @media (max-width:1089) and (min-width:300px) {
-    .centralizar {
+    .centralizar, .erro, .mensagem {
         font-size: 60px;
     }
 }
@@ -70,8 +74,3 @@ img {
     }
 }
 
-.icone, 
-.erro, 
-.mensagem{
-    margin-top: 2%;
-}
